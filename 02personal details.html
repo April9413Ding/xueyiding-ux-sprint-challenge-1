@@ -1,0 +1,57 @@
+<!DOCTYPE html>                       
+<html>                           
+  <head>                               
+    <title>Intro to HTML & CSS Sprint Challenge</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">              
+    <link rel="stylesheet" href="main.css">
+  </head>         
+ <body>            
+    <div class="container">
+        <section class="steps">
+            <div class="step active"><span>1</span><p>CREATE ACCOUNT</p></div>
+            <div class="step active"><span>2</span><p>PERSONAL DETAILS</p></div>
+            <div class="step"><span>3</span><p>BILLING DETAILS</p></div>
+        </section>
+
+        <section class="sign-up">
+            <h1>Tell us about yourself</h1>
+            <form action="03billing details.html" method="POST">
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name">
+
+                <label for="company">Company</label>
+                <input id="company" type="text" name="company">
+
+                <label for="job-title">Job Title</label>
+                <input id="job-title" type="text" name="job-title">
+
+                <label for="address">Address</label>
+                <input id="address" type="text" name="address">
+
+                <div class="flex-row">
+                    <div class="address">
+                        <label for="city">City</label>
+                        <input id="city" type="text" name="city" style="width: 115px">
+                    </div>
+
+                    <div class="address">
+                        <label for="state" style="margin: 0px 0 0 30px">State</label>
+                        <select id="state" name="state">
+                        </select>
+                    </div>
+
+                    <div class="address">
+                        <label for="zipcode">Zipcode</label>
+                        <input id="zipcode" type="number" name="zipcode" style="width: 100px">
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <a href="01account.html"><button type="button" class="secondary-button">Back</button></a>
+                    <button type="submit" class="primary-button">Next</button>
+                </div>
+            </form>
+        </section>
+    </div>
+ </body>
+</html>

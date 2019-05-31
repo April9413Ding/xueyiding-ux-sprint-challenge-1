@@ -1,0 +1,57 @@
+<!DOCTYPE html>                       
+<html>                           
+  <head>                               
+    <title>Intro to HTML & CSS Sprint Challenge</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">              
+    <link rel="stylesheet" href="main.css">
+  </head>         
+ <body>            
+    <div class="container">
+        <section class="steps">
+            <div class="step active"><span>1</span><p>CREATE ACCOUNT</p></div>
+            <div class="step active"><span>2</span><p>PERSONAL DETAILS</p></div>
+            <div class="step active"><span>3</span><p>BILLING DETAILS</p></div>
+        </section>
+        <section class="sign-up">
+            <h1>Billing</h1>
+            <form action="" method="POST">
+                <label for="name-on-card">Name(as it appears on card)</label>
+                <input id="name-on-card" type="text" name="name-on-card">
+
+                <label for="card-num">Card Number</label>
+                <input id="card-num" type="number" name="card-num">
+
+                <div class="flex-row">
+                    <div style="background-color: white">
+                        <label for="expiration-date">Expiration Date</label>
+                        <select id="expiration-date" name="expiration-date" aria-placeholder="01-January" style="width: 200px; margin: 5px 0 0 0">
+                        <option value="01-January">01-January</option>
+                        </select>
+                    </div>
+                    <div style="background-color: white">
+                        <select id="expiration-year" name="expiration-year" aria-placeholder="2019" style="width: 100px; margin: 26px 0 0 0">
+                        <option value="2019">2019</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="flex-row">
+                    <div style="background-color: white">
+                        <label for="card-zipcode">Zipcode</label>
+                        <input id="card-zipcode" type="number" name="card-zipcode">
+                    </div>
+                    <div style="background-color: white">
+                        <label for="security-code">Security Code</label>
+                        <input id="security-code" type="number" name="security-code" style="width: 60px">
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <a href="02personal details.html"><button type="button" class="secondary-button">Back</button></a>
+                    <button type="submit" class="primary-button">Next</button>
+                </div>
+            </form>
+        </section>
+    </div>
+ </body>
+</html>

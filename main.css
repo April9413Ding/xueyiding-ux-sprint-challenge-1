@@ -1,0 +1,149 @@
+*{
+    background-color: #F8FAFC;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 500px;
+}
+
+a{
+    background-color: white;
+}
+.steps{
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    color: #8795A1;
+}
+
+span{
+    background-color: #8795A1;
+    border: 0;
+    border-radius: 50%;
+    color:white;
+    width: 30px;
+    height: 30px;
+    font-size: 21px;
+    text-align: center;
+    padding:4px;
+}
+.active{
+    color:#3182CE;
+}
+
+.active span{
+    background-color: #3182CE;
+}
+
+h1{
+    color:#22292F;
+    background-color: white;
+    font-weight: normal;
+    margin: 0;
+    font-size: 25px;
+}
+
+.sign-up{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    box-shadow: 0 4px 4px 0 rgba(135,149,161,0.50);
+    border-radius: 3px;
+    margin: 30px 50px;
+    padding: 30px;
+}
+
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    margin: 30px 0 0 0;
+    width: 340px;
+}
+
+label{
+    color: #22292F;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin:30px 0 0 0;
+}
+
+input{
+    border: 0;
+    border-radius: 3px;
+    background-color: #DAE1E7;
+    width: auto;
+    height: 30px;
+    margin: 5px 0 0 0;
+}
+
+select{
+    background-color: #DAE1E7;
+    border:0;
+    height: 30px;
+    width: 60px;
+    margin: 5px 30px 0 30px;
+}
+
+.address{
+    background-color: white;
+}
+
+.primary-button{
+    width: 100px;
+    height: 40px;
+    background-color: #3182CE;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    font-size: 21px;
+    margin: 30px 0 0 0;
+    align-self: flex-end;
+}
+
+.secondary-button{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #8795A1;
+    border-radius: 3px;
+    color: #8795A1;
+    font-size: 21px;
+    margin: 30px 0 0 0;
+}
+
+.buttons{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.primary-button:hover{
+    background-color: darkblue;
+    transition: 0.3s ;
+}
+
+.secondary-button:hover{
+    border-color: darkblue;
+    color: darkblue;
+    transition: 0.3s ;
+}
+
